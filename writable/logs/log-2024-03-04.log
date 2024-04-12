@@ -1,0 +1,205 @@
+CRITICAL - 2024-03-04 04:52:57 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-04 16:54:59 --> ErrorException: Undefined property: stdClass::$E
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$E', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 16:56:22 --> ErrorException: Undefined property: stdClass::$E
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$E', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:00:38 --> ErrorException: Undefined property: stdClass::$E
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$E', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:29:37 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:30:51 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:32:38 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:33:03 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:33:06 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:33:18 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:33:23 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:33:35 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:36:03 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:36:58 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:37:30 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:37:44 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:38:45 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:39:13 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:41:11 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:42:17 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Cliente.php on line 59.
+ 1 APPPATH\Controllers\Cliente.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Cliente.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:42:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Cliente.php(31): view('cliente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:46:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente', [], true)
+ 3 APPPATH\Controllers\Cliente.php(31): view('cliente', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:46:27 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:46:29 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:46:30 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:47:19 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:47:25 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:49:48 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 17:54:53 --> ErrorException: Undefined property: stdClass::$e
+in APPPATH\Controllers\Clientes.php on line 59.
+ 1 APPPATH\Controllers\Clientes.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$e', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Clientes.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Clientes->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

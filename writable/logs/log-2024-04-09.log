@@ -1,0 +1,448 @@
+CRITICAL - 2024-04-09 17:11:20 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:11:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:13:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:13:22 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:13:22 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:13:25 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:13:41 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:14:17 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:20 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:22 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:43 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:19:43 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Visita.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visita')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Visita')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('visita', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('visita')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('visita')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-09 17:51:33 --> mysqli_sql_exception: Unknown column 'mascota.id_visita' in 'on clause' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-09 17:51:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:51:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:51:33 --> [Caused by] mysqli_sql_exception: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-09 17:54:11 --> mysqli_sql_exception: Unknown column 'mascota.id_visita' in 'on clause' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-09 17:54:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:54:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:54:11 --> [Caused by] mysqli_sql_exception: Unknown column 'mascota.id_visita' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`
+JOIN `mascota` ON `mascota`.`id_mascota` = `mascota`.`id_visita`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:57:00 --> ErrorException: Undefined property: stdClass::$id_mascota
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_mascota', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-09 17:57:12 --> mysqli_sql_exception: Unknown column 'mascota.nombre' in 'field list' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-09 17:57:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:57:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mascota.nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:57:12 --> [Caused by] mysqli_sql_exception: Unknown column 'mascota.nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `visita`.`id_visita`, `mascota`.`nombre` as `nombre_mascota`, `visita`.`id_medico`, `fecha_visita`, `tipo_servicio`, `descripcion_servicio`
+FROM `visita`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Visita.php(48): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-09 17:58:31 --> ErrorException: Undefined property: stdClass::$id_mascota
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_mascota', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,9 @@
+CRITICAL - 2024-03-14 13:19:03 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\DuenoModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Models\\DuenoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DuenoModel')
+ 3 APPPATH\Controllers\Dueno.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DuenoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Dueno->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,189 @@
+CRITICAL - 2024-03-20 16:42:01 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\DuenoModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Models\\DuenoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DuenoModel')
+ 3 APPPATH\Controllers\Dueno.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DuenoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Dueno->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 16:42:15 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\DuenoModel.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Models\\DuenoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DuenoModel')
+ 3 APPPATH\Controllers\Dueno.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DuenoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Dueno->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 17:01:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`mascota`, CONSTRAINT `mascota_ibfk_1` FOREIGN KEY (`id_dueno`) REFERENCES `dueno` (`id_dueno`)) in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `du...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `du...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `du...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `du...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(1117): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Dueno.php(176): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Dueno->postRemove()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dueno))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-20 17:01:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`mascota`, CONSTRAINT `mascota_ibfk_1` FOREIGN KEY (`id_dueno`) REFERENCES `dueno` (`id_dueno`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `dueno`
+WHERE `id_dueno` = :id_dueno:', [...], false)
+ 2 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Dueno.php(176): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dueno->postRemove()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dueno))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`mascota`, CONSTRAINT `mascota_ibfk_1` FOREIGN KEY (`id_dueno`) REFERENCES `dueno` (`id_dueno`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `dueno`
+WHERE `id_dueno` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `dueno`
+WHERE `id_dueno` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `dueno`
+WHERE `id_dueno` = :id_dueno:', [...], false)
+ 4 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Dueno.php(176): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dueno->postRemove()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dueno))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:22 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`mascota`, CONSTRAINT `mascota_ibfk_1` FOREIGN KEY (`id_dueno`) REFERENCES `dueno` (`id_dueno`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `dueno`
+WHERE `id_dueno` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `dueno`
+WHERE `id_dueno` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `dueno`
+WHERE `id_dueno` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `dueno`
+WHERE `id_dueno` = :id_dueno:', [...], false)
+ 5 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Dueno.php(176): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dueno->postRemove()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dueno))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 17:01:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_2` FOREIGN KEY (`id_mascota`) REFERENCES `mascota` (`id_mascota`)) in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(1117): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Mascota.php(176): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Mascota->postRemove()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-20 17:01:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_2` FOREIGN KEY (`id_mascota`) REFERENCES `mascota` (`id_mascota`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mascota`
+WHERE `id_mascota` = :id_mascota:', [...], false)
+ 2 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Mascota.php(176): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->postRemove()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_2` FOREIGN KEY (`id_mascota`) REFERENCES `mascota` (`id_mascota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mascota`
+WHERE `id_mascota` = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mascota`
+WHERE `id_mascota` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mascota`
+WHERE `id_mascota` = :id_mascota:', [...], false)
+ 4 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Mascota.php(176): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->postRemove()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:28 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_2` FOREIGN KEY (`id_mascota`) REFERENCES `mascota` (`id_mascota`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `mascota`
+WHERE `id_mascota` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mascota`
+WHERE `id_mascota` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mascota`
+WHERE `id_mascota` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mascota`
+WHERE `id_mascota` = :id_mascota:', [...], false)
+ 5 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Mascota.php(176): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->postRemove()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-20 17:01:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_1` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id_medico`)) in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `me...', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `me...')
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `me...')
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `me...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(1117): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\Medico.php(181): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(941): App\Controllers\Medico->postRemove()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medico))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-20 17:01:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_1` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id_medico`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `medico`
+WHERE `id_medico` = :id_medico:', [...], false)
+ 2 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Medico.php(181): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Medico->postRemove()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_1` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id_medico`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `medico`
+WHERE `id_medico` = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `medico`
+WHERE `id_medico` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `medico`
+WHERE `id_medico` = :id_medico:', [...], false)
+ 4 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Medico.php(181): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Medico->postRemove()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medico))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 17:01:33 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`veterinaria`.`visita`, CONSTRAINT `visita_ibfk_1` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id_medico`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `medico`
+WHERE `id_medico` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `medico`
+WHERE `id_medico` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `medico`
+WHERE `id_medico` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2787): CodeIgniter\Database\BaseConnection->query('DELETE FROM `medico`
+WHERE `id_medico` = :id_medico:', [...], false)
+ 5 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1117): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Medico.php(181): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Medico->postRemove()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medico))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

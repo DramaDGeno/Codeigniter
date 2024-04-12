@@ -1,0 +1,271 @@
+CRITICAL - 2024-03-25 17:23:51 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:23:53 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:23:53 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:23:54 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:23:54 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:23:54 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:24:42 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(31): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:36:21 --> ParseError: Unclosed '{' on line 7
+in APPPATH\Models\MascotaModel.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Models\\MascotaModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MascotaModel')
+ 3 APPPATH\Controllers\Mascota.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MascotaModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Mascota->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:40:02 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(33): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:40:03 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(33): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:40:03 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(33): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:40:03 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(33): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:41:25 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 31.
+ 1 APPPATH\Controllers\Mascota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:41:25 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 31.
+ 1 APPPATH\Controllers\Mascota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:41:25 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 31.
+ 1 APPPATH\Controllers\Mascota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:41:26 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 31.
+ 1 APPPATH\Controllers\Mascota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:41:26 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 31.
+ 1 APPPATH\Controllers\Mascota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:30 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:30 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:31 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:31 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:31 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:43:31 --> ErrorException: Undefined variable $duenos
+in APPPATH\Controllers\Mascota.php on line 32.
+ 1 APPPATH\Controllers\Mascota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:44:43 --> ErrorException: Undefined property: App\Controllers\Mascota::$duenoModel
+in APPPATH\Controllers\Mascota.php on line 29.
+ 1 APPPATH\Controllers\Mascota.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mascota::$duenoModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:44:44 --> ErrorException: Undefined property: App\Controllers\Mascota::$duenoModel
+in APPPATH\Controllers\Mascota.php on line 29.
+ 1 APPPATH\Controllers\Mascota.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mascota::$duenoModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:44:44 --> ErrorException: Undefined property: App\Controllers\Mascota::$duenoModel
+in APPPATH\Controllers\Mascota.php on line 29.
+ 1 APPPATH\Controllers\Mascota.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mascota::$duenoModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:44:44 --> ErrorException: Undefined property: App\Controllers\Mascota::$duenoModel
+in APPPATH\Controllers\Mascota.php on line 29.
+ 1 APPPATH\Controllers\Mascota.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mascota::$duenoModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:44:44 --> ErrorException: Undefined property: App\Controllers\Mascota::$duenoModel
+in APPPATH\Controllers\Mascota.php on line 29.
+ 1 APPPATH\Controllers\Mascota.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mascota::$duenoModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Mascota.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:45:45 --> ErrorException: Undefined variable $duenos
+in APPPATH\Views\mascota.php on line 56.
+ 1 APPPATH\Views\mascota.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duenos', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\mascota.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('mascota', [], true)
+ 5 APPPATH\Controllers\Mascota.php(35): view('mascota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:46:51 --> Error: Class "App\Controllers\DuenoModel" not found
+in APPPATH\Controllers\Mascota.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:46:52 --> Error: Class "App\Controllers\DuenoModel" not found
+in APPPATH\Controllers\Mascota.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 17:46:52 --> Error: Class "App\Controllers\DuenoModel" not found
+in APPPATH\Controllers\Mascota.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Mascota->getIndex()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
