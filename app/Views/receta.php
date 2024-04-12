@@ -10,7 +10,7 @@
               <h3 class="card-title">Receta</h3>
             </div>
             <div class="col-2">
-              <button type="button" class="btn float-right btn-success" onclick="save()" title="<?= lang("App.new") ?>"> <i class="fa fa-plus"></i>   <?= lang('App.new') ?></button>
+              <button type="button" class="btn float-right btn-success" onclick="save()" title="<?= lang("Agregar nuevo") ?>"> <i class="fa fa-plus"></i>   <?= lang('Agregar nuevo') ?></button>
             </div>
           </div>
         </div>
@@ -19,10 +19,10 @@
           <table id="data_table" class="table table-bordered table-striped">
             <thead>
               <tr>
-              <th>Id receta</th>
-<th>Id visita</th>
-<th>Id mascota</th>
-<th>Desc receta</th>
+              <th>ID receta</th>
+<th>ID visita</th>
+<th>Nombre de la mascota</th>
+<th>Descripción de la receta</th>
 
 			  <th></th>
               </tr>
@@ -51,13 +51,21 @@
 							<div class="col-md-12">
 								<div class="form-group mb-3">
 									<label for="id_visita" class="col-form-label"> Id visita: <span class="text-danger">*</span> </label>
-									<input type="number" id="id_visita" name="id_visita" class="form-control" placeholder="Id visita" minlength="0"  maxlength="11" required>
-								</div>
+									<select id="id_visita" name="id_visita" class="form-control" required>
+                  <?php foreach ($visitas as $visita): ?>
+                     <option value="<?= $visita->id_visita ?>"><?= $visita->id_visita ?></option>
+                 <?php endforeach; ?>
+                 </select>
+                </div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group mb-3">
-									<label for="id_mascota" class="col-form-label"> Id mascota: <span class="text-danger">*</span> </label>
-									<input type="number" id="id_mascota" name="id_mascota" class="form-control" placeholder="Id mascota" minlength="0"  maxlength="11" required>
+                <label for="id_mascota" class="col-form-label"> Nombre de la mascota: <span class="text-danger">*</span> </label>		
+                  <select id="id_mascota" name="id_mascota" class="form-control" required>
+                 <?php foreach ($mascotas as $mascota): ?>
+                     <option value="<?= $mascota->id_mascota ?>"><?= $mascota->nombre ?></option>
+                 <?php endforeach; ?>
+                 </select>
 								</div>
 							</div>
 							<div class="col-md-12">
@@ -70,8 +78,8 @@
 
           <div class="form-group text-center">
             <div class="btn-group">
-              <button type="submit" class="btn btn-success mr-2" id="form-btn"><?= lang("App.save") ?></button>
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><?= lang("App.cancel") ?></button>
+              <button type="submit" class="btn btn-success mr-2" id="form-btn"><?= lang("Guardar") ?></button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><?= lang("Cancelar") ?></button>
             </div>
           </div>
         </form>
@@ -104,7 +112,7 @@
       "scrollCollapse": false,
       "responsive": false,
       "ajax": {
-        "url": '<?php echo base_url($controller . "/getAll") ?>',
+        "url": '<?php echo base_url("/public/receta/getAll") ?>',
         "type": "POST",
         "dataType": "json",
         async: "true"
@@ -128,32 +136,32 @@
     $("#data-form")[0].reset();
     $(".form-control").removeClass('is-invalid').removeClass('is-valid');
     if (typeof id_receta === 'undefined' || id_receta < 1) { //add
-      urlController = '<?= base_url($controller . "/add") ?>';
-      submitText = '<?= lang("App.save") ?>';
+      urlController = '<?= base_url("/public/receta/add") ?>';
+      submitText = '<?= lang("Guardar") ?>';
       $('#model-header').removeClass('bg-info').addClass('bg-success');
-      $("#info-header-modalLabel").text('<?= lang("App.add") ?>');
+      $("#info-header-modalLabel").text('<?= lang("Agregar nuevo") ?>');
       $("#form-btn").text(submitText);
       $('#data-modal').modal('show');
     } else { //edit
-      urlController = '<?= base_url($controller . "/edit") ?>';
-      submitText = '<?= lang("App.update") ?>';
+      urlController = '<?= base_url("/public/receta/edit") ?>';
+      submitText = '<?= lang("Modificar") ?>';
       $.ajax({
-        url: '<?php echo base_url($controller . "/getOne") ?>',
+        url: '<?php echo base_url("/public/receta/getOnel") ?>',
         type: 'post',
         data: {
           id_receta: id_receta
         },
         dataType: 'json',
         success: function(response) {
-          $('#model-header').removeClass('bg-success').addClass('bg-info');
-          $("#info-header-modalLabel").text('<?= lang("App.edit") ?>');
-          $("#form-btn").text(submitText);
-          $('#data-modal').modal('show');
+                $('#model-header').removeClass('bg-success').addClass('bg-info');
+                $("#info-header-modalLabel").text('<?= lang("Editar") ?>');
+                $("#form-btn").text(submitText);
+                $('#data-modal').modal('show');
           //insert data to form
           			$("#data-form #id_receta").val(response.id_receta);
-			$("#data-form #id_visita").val(response.id_visita);
-			$("#data-form #id_mascota").val(response.id_mascota);
-			$("#data-form #desc_receta").val(response.desc_receta);
+                $("#data-form #id_visita").val(response.id_visita);
+                $("#data-form #id_mascota").val(response.id_mascota);
+                $("#data-form #desc_receta").val(response.desc_receta);
 
         }
       });
@@ -248,19 +256,19 @@
 
   function remove(id_receta) {
     Swal.fire({
-      title: "<?= lang("App.remove-title") ?>",
-      text: "<?= lang("App.remove-text") ?>",
+      title: "<?= lang("Estás a punto de eliminar una receta") ?>",
+      text: "<?= lang("¿Continuar?") ?>",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: '<?= lang("App.confirm") ?>',
-      cancelButtonText: '<?= lang("App.cancel") ?>'
+      confirmButtonText: '<?= lang("Confirmar") ?>',
+      cancelButtonText: '<?= lang("Cancelar") ?>'
     }).then((result) => {
 
       if (result.value) {
         $.ajax({
-          url: '<?php echo base_url($controller . "/remove") ?>',
+          url: '<?php echo base_url("/public/receta/remove") ?>',
           type: 'post',
           data: {
             id_receta : id_receta

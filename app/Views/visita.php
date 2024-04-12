@@ -172,12 +172,12 @@
           $("#form-btn").text(submitText);
           $('#data-modal').modal('show');
           //insert data to form
-          			$("#data-form #id_visita").val(response.id_visita);
-			$("#data-form #id_mascota").val(response.id_mascota);
-			$("#data-form #id_medico").val(response.id_medico);
-			$("#data-form #fecha_visita").val(response.fecha_visita);
-			$("#data-form #tipo_servicio").val(response.tipo_servicio);
-			$("#data-form #descripcion_servicio").val(response.descripcion_servicio);
+          $("#data-form #id_visita").val(response.id_visita);
+          $("#data-form #id_mascota").val(response.id_mascota);
+          $("#data-form #id_medico").val(response.id_medico);
+          $("#data-form #fecha_visita").val(response.fecha_visita);
+          $("#data-form #tipo_servicio").val(response.tipo_servicio);
+          $("#data-form #descripcion_servicio").val(response.descripcion_servicio);
 
         }
       });

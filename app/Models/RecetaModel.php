@@ -19,4 +19,14 @@ class RecetaModel extends Model {
 	protected $validationMessages = [];
 	protected $skipValidation     = true;    
 	
+
+	protected $with = ['mascota', 'visita'];
+
+	public function mascota() {
+        return $this->belongsTo(MascotaModel::class, 'id_mascota', 'id_mascota');
+    } 
+
+	public function visita() {
+        return $this->belongsTo(VisitaModel::class, 'id_visita', 'id_visita');
+    } 
 }
