@@ -43,7 +43,8 @@
         <h4 class="modal-title text-white" id="info-header-modalLabel"></h4>
       </div>
       <div class="modal-body">
-        <form id="data-form" class="pl-3 pr-3">
+       
+        <form id="data-form" class="pl-3 pr-3" enctype="multipart/form-data">
           <div class="row">
 <input type="hidden" id="id_receta" name="id_receta" class="form-control" placeholder="Id receta" maxlength="11" required>
 						</div>
@@ -74,6 +75,17 @@
 									<input type="text" id="desc_receta" name="desc_receta" class="form-control" placeholder="Desc receta" minlength="5"  maxlength="50" required>
 								</div>
 							</div>
+
+
+              <div class="col-md-12">
+    <div class="form-group mb-3">
+        <label for="archivo" class="col-form-label">Archivo PDF: </label>
+        <input type="file" id="archivo" name="archivo" class="form-control-file">
+    </div>
+
+
+</div>
+
 						</div>
 
           <div class="form-group text-center">
@@ -131,126 +143,132 @@
     return submitText;
   }
 
+function viewPDF(id_receta) {
+    // Lógica para visualizar el PDF del id_receta seleccionado en línea
+    window.location.href = 'http://localhost/codeigniter/public/uploads/receta_' + id_receta + '.pdf';
+}
+
+
+
   function save(id_receta) {
     // reset the form 
     $("#data-form")[0].reset();
     $(".form-control").removeClass('is-invalid').removeClass('is-valid');
     if (typeof id_receta === 'undefined' || id_receta < 1) { //add
-      urlController = '<?= base_url("/public/receta/add") ?>';
-      submitText = '<?= lang("Guardar") ?>';
-      $('#model-header').removeClass('bg-info').addClass('bg-success');
-      $("#info-header-modalLabel").text('<?= lang("Agregar nuevo") ?>');
-      $("#form-btn").text(submitText);
-      $('#data-modal').modal('show');
+        urlController = '<?= base_url("/public/receta/add") ?>';
+        submitText = '<?= lang("Guardar") ?>';
+        $('#model-header').removeClass('bg-info').addClass('bg-success');
+        $("#info-header-modalLabel").text('<?= lang("Agregar nuevo") ?>');
+        $("#form-btn").text(submitText);
+        $('#data-modal').modal('show');
     } else { //edit
-      urlController = '<?= base_url("/public/receta/edit") ?>';
-      submitText = '<?= lang("Modificar") ?>';
-      $.ajax({
-        url: '<?php echo base_url("/public/receta/getOnel") ?>',
-        type: 'post',
-        data: {
-          id_receta: id_receta
-        },
-        dataType: 'json',
-        success: function(response) {
+        urlController = '<?= base_url("/public/receta/edit") ?>';
+        submitText = '<?= lang("Modificar") ?>';
+        $.ajax({
+            url: '<?php echo base_url("/public/receta/getOnel") ?>',
+            type: 'post',
+            data: {
+                id_receta: id_receta
+            },
+            dataType: 'json',
+            success: function(response) {
                 $('#model-header').removeClass('bg-success').addClass('bg-info');
                 $("#info-header-modalLabel").text('<?= lang("Editar") ?>');
                 $("#form-btn").text(submitText);
                 $('#data-modal').modal('show');
-          //insert data to form
-          			$("#data-form #id_receta").val(response.id_receta);
+                //insert data to form
+                $("#data-form #id_receta").val(response.id_receta);
                 $("#data-form #id_visita").val(response.id_visita);
                 $("#data-form #id_mascota").val(response.id_mascota);
                 $("#data-form #desc_receta").val(response.desc_receta);
-
-        }
-      });
+                
+            }
+        });
     }
     $.validator.setDefaults({
-      highlight: function(element) {
-        $(element).addClass('is-invalid').removeClass('is-valid');
-      },
-      unhighlight: function(element) {
-        $(element).removeClass('is-invalid').addClass('is-valid');
-      },
-      errorElement: 'div ',
-      errorClass: 'invalid-feedback',
-      errorPlacement: function(error, element) {
-        if (element.parent('.input-group').length) {
-          error.insertAfter(element.parent());
-        } else if ($(element).is('.select')) {
-          element.next().after(error);
-        } else if (element.hasClass('select2')) {
-          //error.insertAfter(element);
-          error.insertAfter(element.next());
-        } else if (element.hasClass('selectpicker')) {
-          error.insertAfter(element.next());
-        } else {
-          error.insertAfter(element);
-        }
-      },
-      submitHandler: function(form) {
-        var form = $('#data-form');
-        $(".text-danger").remove();
-        $.ajax({
-          // fixBug get url from global function only
-          // get global variable is bug!
-          url: getUrl(),
-          type: 'post',
-          data: form.serialize(),
-          cache: false,
-          dataType: 'json',
-          beforeSend: function() {
-            $('#form-btn').html('<i class="fa fa-spinner fa-spin"></i>');
-          },
-          success: function(response) {
-            if (response.success === true) {
-              Swal.fire({
-                toast: true,
-                position: 'top-end',
-                icon: 'success',
-                title: response.messages,
-                showConfirmButton: false,
-                timer: 1500
-              }).then(function() {
-                $('#data_table').DataTable().ajax.reload(null, false).draw(false);
-                $('#data-modal').modal('hide');
-              })
+        highlight: function(element) {
+            $(element).addClass('is-invalid').removeClass('is-valid');
+        },
+        unhighlight: function(element) {
+            $(element).removeClass('is-invalid').addClass('is-valid');
+        },
+        errorElement: 'div ',
+        errorClass: 'invalid-feedback',
+        errorPlacement: function(error, element) {
+            if (element.parent('.input-group').length) {
+                error.insertAfter(element.parent());
+            } else if ($(element).is('.select')) {
+                element.next().after(error);
+            } else if (element.hasClass('select2')) {
+                //error.insertAfter(element);
+                error.insertAfter(element.next());
+            } else if (element.hasClass('selectpicker')) {
+                error.insertAfter(element.next());
             } else {
-              if (response.messages instanceof Object) {
-                $.each(response.messages, function(index, value) {
-                  var ele = $("#" + index);
-                  ele.closest('.form-control')
-                    .removeClass('is-invalid')
-                    .removeClass('is-valid')
-                    .addClass(value.length > 0 ? 'is-invalid' : 'is-valid');
-                  ele.after('<div class="invalid-feedback">' + response.messages[index] + '</div>');
-                });
-              } else {
-                Swal.fire({
-                  toast: false,
-                  position: 'bottom-end',
-                  icon: 'error',
-                  title: response.messages,
-                  showConfirmButton: false,
-                  timer: 3000
-                })
-
-              }
+                error.insertAfter(element);
             }
-            $('#form-btn').html(getSubmitText());
-          }
-        });
-        return false;
-      }
+        },
+        submitHandler: function(form) {
+            var formData = new FormData(form); // Obtener los datos del formulario, incluyendo el archivo
+            formData.append('archivo', $('#archivo')[0].files[0]); // Agregar el archivo al FormData
+
+            $.ajax({
+                url: getUrl(),
+                type: 'post',
+                data: formData,
+                processData: false,
+                contentType: false,
+                cache: false,
+                dataType: 'json',
+                beforeSend: function() {
+                    $('#form-btn').html('<i class="fa fa-spinner fa-spin"></i>');
+                },
+                success: function(response) {
+                    if (response.success === true) {
+                        Swal.fire({
+                            toast: true,
+                            position: 'top-end',
+                            icon: 'success',
+                            title: response.messages,
+                            showConfirmButton: false,
+                            timer: 1500
+                        }).then(function() {
+                            $('#data_table').DataTable().ajax.reload(null, false).draw(false);
+                            $('#data-modal').modal('hide');
+                        })
+                    } else {
+                        if (response.messages instanceof Object) {
+                            $.each(response.messages, function(index, value) {
+                                var ele = $("#" + index);
+                                ele.closest('.form-control')
+                                    .removeClass('is-invalid')
+                                    .removeClass('is-valid')
+                                    .addClass(value.length > 0 ? 'is-invalid' : 'is-valid');
+                                ele.after('<div class="invalid-feedback">' + response.messages[index] + '</div>');
+                            });
+                        } else {
+                            Swal.fire({
+                                toast: false,
+                                position: 'bottom-end',
+                                icon: 'error',
+                                title: response.messages,
+                                showConfirmButton: false,
+                                timer: 3000
+                            })
+
+                        }
+                    }
+                    $('#form-btn').html(getSubmitText());
+                }
+            });
+            return false;
+        }
     });
 
     $('#data-form').validate({
-
-      //insert data-form to database
-
+        //insert data-form to database
     });
-  }
+}
 
 
 
@@ -302,6 +320,10 @@
       }
     })
   }
+
+
+  
+
 </script>
 
 

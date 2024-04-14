@@ -1,0 +1,251 @@
+CRITICAL - 2024-04-14 13:44:21 --> ErrorException: Attempt to read property "archivo" on null
+in APPPATH\Controllers\Receta.php on line 213.
+ 1 APPPATH\Controllers\Receta.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "archivo" on null', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 213)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postRemove()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:47:23 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 67.
+ 1 APPPATH\Controllers\Receta.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:03 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:04 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:05 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:05 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:05 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:05 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:06 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:06 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:49:06 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 64.
+ 1 APPPATH\Controllers\Receta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:50:58 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 67.
+ 1 APPPATH\Controllers\Receta.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:51:23 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 65.
+ 1 APPPATH\Controllers\Receta.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:51:23 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 65.
+ 1 APPPATH\Controllers\Receta.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:51:24 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 65.
+ 1 APPPATH\Controllers\Receta.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:51:24 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 65.
+ 1 APPPATH\Controllers\Receta.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 13:59:03 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 68.
+ 1 APPPATH\Controllers\Receta.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:00:50 --> ParseError: syntax error, unexpected token ",", expecting variable
+in APPPATH\Controllers\Receta.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Receta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Receta')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Receta')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('receta', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('receta')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('receta')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:00:52 --> ParseError: syntax error, unexpected token ",", expecting variable
+in APPPATH\Controllers\Receta.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Receta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Receta')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Receta')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('receta', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('receta')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('receta')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:00:52 --> ParseError: syntax error, unexpected token ",", expecting variable
+in APPPATH\Controllers\Receta.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Receta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Receta')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Receta')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('receta', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('receta')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('receta')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:00:52 --> ParseError: syntax error, unexpected token ",", expecting variable
+in APPPATH\Controllers\Receta.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Receta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Receta')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Receta')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('receta', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('receta')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('receta')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:00:52 --> ParseError: syntax error, unexpected token ",", expecting variable
+in APPPATH\Controllers\Receta.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Receta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Receta')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(164): class_exists('\\App\\Controllers\\Receta')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(268): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouterImproved->getRoute('receta', 'get')
+ 7 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('receta')
+ 8 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('receta')
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:01:15 --> ErrorException: Undefined property: stdClass::$archivo
+in APPPATH\Controllers\Receta.php on line 68.
+ 1 APPPATH\Controllers\Receta.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$archivo', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Receta.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:34:28 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\Receta.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:57:54 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(153): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 14:58:51 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(153): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 15:00:30 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(153): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 15:11:19 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(156): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 15:12:50 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(151): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-14 15:14:23 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\codeigniter\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\Receta.php(156): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Receta->postAdd()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Receta))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

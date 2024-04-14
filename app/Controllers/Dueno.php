@@ -25,7 +25,7 @@ class Dueno extends BaseController
 
 	    $data = [
                 'controller'    	=> 'dueno',
-                'title'     		=> 'dueno'				
+                'title'     		=> 'cliente'				
 			];
 		
 		return view('dueno', $data);

@@ -10,7 +10,7 @@ class RecetaModel extends Model {
 	protected $primaryKey = 'id_receta';
 	protected $returnType = 'object';
 	protected $useSoftDeletes = false;
-	protected $allowedFields = ['id_visita', 'id_mascota', 'desc_receta'];
+	protected $allowedFields = ['id_visita', 'id_mascota', 'desc_receta', 'archivo'];
 	protected $useTimestamps = false;
 	protected $createdField  = 'created_at';
 	protected $updatedField  = 'updated_at';
@@ -29,4 +29,14 @@ class RecetaModel extends Model {
 	public function visita() {
         return $this->belongsTo(VisitaModel::class, 'id_visita', 'id_visita');
     } 
+
+	//Funcion agregada en el modelo para contador de recetas Geno
+
+	public function getContadorRecetas()
+{
+    // Consulta para obtener el número de recetas en la base de datos
+    return $this->countAllResults();
+}
+
+
 }
