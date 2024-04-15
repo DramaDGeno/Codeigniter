@@ -10,7 +10,7 @@
               <h3 class="card-title">Médicos y Estilistas</h3>
             </div>
             <div class="col-2">
-              <button type="button" class="btn float-right btn-success" onclick="save()" title="<?= lang("Agregar nuevo") ?>"> <i class="fa fa-plus"></i>   <?= lang('App.new') ?></button>
+              <button type="button" class="btn float-right btn-success" onclick="save()" title="<?= lang("Agregar nuevo") ?>"> <i class="fa fa-plus"></i>   <?= lang('Agregar nuevo') ?></button>
             </div>
           </div>
         </div>

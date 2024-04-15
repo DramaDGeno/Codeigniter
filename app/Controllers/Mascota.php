@@ -32,7 +32,7 @@ class Mascota extends BaseController
     // Crear los datos que se enviarán a la vista
     $data = [
         'controller' => 'mascota',
-        'title' => 'mascota',
+        'title' => 'Mascotas',
         'duenos' => $duenos  // Pasar la variable $duenos a la vista
     ];
 

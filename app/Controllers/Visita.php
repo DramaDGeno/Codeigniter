@@ -35,7 +35,7 @@ class Visita extends BaseController
 
 	    $data = [
                 'controller'    	=> 'visita',
-                'title'     		=> 'visita',
+                'title'     		=> 'Citas',
 				'mascotas' => $mascotas,
 				'medicos' => $medicos				
 			];

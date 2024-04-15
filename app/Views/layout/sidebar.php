@@ -37,7 +37,7 @@
             <li class="nav-item">
               <a href="<?= base_url('/public/medico/')?>" class="nav-link ">
                 <i class="nav-icon far fa-circle"></i>
-                <p>Doctores</p>
+                <p>Doctores y Estilistas</p>
               </a>
             </li>
         </li>
@@ -47,14 +47,6 @@
                 <p>Citas</p>
               </a>
             </li>
-        </li>
-        <li class="nav-item">
-              <a href="<?= base_url('/public/receta/')?>" class="nav-link ">
-                <i class="nav-icon far fa-circle"></i>
-                <p>Recetas</p>
-              </a>
-            </li>
-          </ul>
         </li>
         <!--
         <li class="nav-item ">
