@@ -10,7 +10,7 @@ class VisitaModel extends Model {
 	protected $primaryKey = 'id_visita';
 	protected $returnType = 'object';
 	protected $useSoftDeletes = false;
-	protected $allowedFields = ['id_mascota', 'id_medico', 'fecha_visita', 'tipo_servicio', 'descripcion_servicio'];
+	protected $allowedFields = ['id_mascota', 'id_medico', 'fecha_visita', 'tipo_servicio', 'descripcion_servicio', 'archivo'];
 	protected $useTimestamps = false;
 	protected $createdField  = 'created_at';
 	protected $updatedField  = 'updated_at';
@@ -29,4 +29,10 @@ class VisitaModel extends Model {
 	public function medico() {
 		return $this->belongsTo(MedicoModel::class, 'id_medico', 'id_medico');
 	}
+
+	public function getContadorVisitas()
+{
+    // Consulta para obtener el número de recetas en la base de datos
+    return $this->countAllResults();
+}
 }

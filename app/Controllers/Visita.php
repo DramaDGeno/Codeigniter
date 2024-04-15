@@ -1,6 +1,6 @@
 <?php
 // ADEL CODEIGNITER 4 CRUD GENERATOR
-
+//Comentario Adan   
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -61,7 +61,7 @@ class Visita extends BaseController
 			$ops .= '<i class="fa-solid fa-pen-square"></i>  </button>';
 			$ops .= '<div class="dropdown-menu">';
 			$ops .= '<a class="dropdown-item text-info" onClick="save('. $value->id_visita .')"><i class="fa-solid fa-pen-to-square"></i>   ' .  lang("Editar")  . '</a>';
-			$ops .= '<a class="dropdown-item text-orange" ><i class="fa-solid fa-copy"></i>   ' .  lang("Copiar")  . '</a>';
+			$ops .= '<a class="dropdown-item text-warning" onClick="viewPDF('. $value->id_visita .')"><i class="fa-solid fa-file-pdf"></i>   ' .  lang("Ver PDF")  . '</a>';
 			$ops .= '<div class="dropdown-divider"></div>';
 			$ops .= '<a class="dropdown-item text-danger" onClick="remove('. $value->id_visita .')"><i class="fa-solid fa-trash"></i>   ' .  lang("Eliminar")  . '</a>';
 			$ops .= '</div></div>';
@@ -81,6 +81,37 @@ class Visita extends BaseController
 		return $this->response->setJSON($data);		
 	}
 	
+	public function viewPDF()
+	{
+		$id_visita = $this->request->getGet('id_visita');
+	
+		// Obtener la información de la receta desde la base de datos
+		$visita = $this->visitaModel->find($id_visita);
+	
+		if ($visita) {
+			// Obtener la ruta del archivo PDF asociado a la receta
+			$rutaPDF = ROOTPATH . '/public/uploads/' . $visita['archivo'];
+	
+			// Verificar si el archivo existe
+			if (file_exists($rutaPDF)) {
+				// Configurar las cabeceras para visualizar el archivo PDF en línea
+				header('Content-type: application/pdf');
+				header('Content-Disposition: inline; filename="' . $visita['archivo'] . '"');
+	
+				// Leer el archivo y enviar su contenido al navegador para visualización
+				readfile($rutaPDF);
+	
+				exit();
+			} else {
+				// Si el archivo no existe, mostrar un mensaje de error
+				return $this->response->setStatusCode(404)->setJSON(['success' => false, 'message' => 'Archivo PDF no encontrado']);
+			}
+		} else {
+			// Si no se encuentra la receta con el id proporcionado, mostrar un mensaje de error
+			return $this->response->setStatusCode(404)->setJSON(['success' => false, 'message' => 'Visita no encontrada']);
+		}
+	}
+
 	public function postGetOne()
 	{
  		$response = array();
@@ -99,49 +130,82 @@ class Visita extends BaseController
 		
 	}	
 
-	public function postAdd()
-	{
-        $response = array();
+	public function generatePDFName()
+{
+    $lastVisita = $this->visitaModel->orderBy('id_visita', 'DESC')->first();
+    if ($lastVisita) {
+        $lastVisitaId = $lastVisita->id_visita;
+        $newVisitaId = $lastVisitaId + 1;
+    } else {
+        $newVisitaId = 1;
+    }
+    return 'visita_' . $newVisitaId;
+}
 
-		$fields['id_visita'] = $this->request->getPost('id_visita');
-		$fields['id_mascota'] = $this->request->getPost('id_mascota');
-		$fields['id_medico'] = $this->request->getPost('id_medico');
-		$fields['fecha_visita'] = $this->request->getPost('fecha_visita');
-		$fields['tipo_servicio'] = $this->request->getPost('tipo_servicio');
-		$fields['descripcion_servicio'] = $this->request->getPost('descripcion_servicio');
+public function postAdd()
+{
+    $response = [];
 
+    // Obtener los datos del formulario
+    $fields['id_visita'] = $this->request->getPost('id_visita');
+    $fields['id_mascota'] = $this->request->getPost('id_mascota');
+    $fields['id_medico'] = $this->request->getPost('id_medico');
+    $fields['fecha_visita'] = $this->request->getPost('fecha_visita');
+    $fields['tipo_servicio'] = $this->request->getPost('tipo_servicio');
+    $fields['descripcion_servicio'] = $this->request->getPost('descripcion_servicio');
 
-        $this->validation->setRules([
-			'id_mascota' => ['label' => 'Id mascota', 'rules' => 'required|numeric|min_length[0]|max_length[20]'],
-            'id_medico' => ['label' => 'Id medico', 'rules' => 'required|numeric|min_length[0]|max_length[20]'],
-            'fecha_visita' => ['label' => 'Fecha visita', 'rules' => 'required|valid_date|min_length[0]'],
-            'tipo_servicio' => ['label' => 'Tipo servicio', 'rules' => 'required|min_length[0]|max_length[50]'],
-            'descripcion_servicio' => ['label' => 'Descripcion servicio', 'rules' => 'required|min_length[0]|max_length[50]'],
+    $archivo = $this->request->getFile('archivo');
 
-        ]);
+// Verificar si se proporcionó un archivo y si es un PDF válido
+if ($archivo && $archivo->isValid()) {
+    if ($archivo->getClientMimeType() == 'application/pdf') {
+        // Generar un nombre secuencial para el archivo PDF
+        $nombreArchivo = $this->generatePDFName();
 
-        if ($this->validation->run($fields) == FALSE) {
-
-            $response['success'] = false;
-			$response['messages'] = $this->validation->getErrors();//Show Error in Input Form
-			
+        // Mover el archivo a la carpeta deseada en tu servidor
+        if ($archivo->move(ROOTPATH . '/public/uploads', $nombreArchivo . '.pdf')) {
+            // Guardar la ruta del archivo en los datos de la visita
+            $fields['archivo'] = '/uploads/' . $nombreArchivo . '.pdf';
         } else {
-
-            if ($this->visitaModel->insert($fields)) {
-												
-                $response['success'] = true;
-                $response['messages'] = lang("Agregado correctamente") ;	
-				
-            } else {
-				
-                $response['success'] = false;
-                $response['messages'] = lang("Error al insertar") ;
-				
-            }
+            // Error al mover el archivo
+            $response['success'] = false;
+            $response['messages'] = lang("Error al cargar el archivo");
+            return $this->response->setJSON($response);
         }
-		
+    } else {
+        // Archivo no es un PDF válido
+        $response['success'] = false;
+        $response['messages'] = lang("El archivo no es un PDF válido");
         return $this->response->setJSON($response);
-	}
+    }
+}
+
+    // Validar otros campos del formulario
+    $this->validation->setRules([
+        'id_mascota' => ['label' => 'Id mascota', 'rules' => 'required|numeric|min_length[0]|max_length[20]'],
+        'id_medico' => ['label' => 'Id medico', 'rules' => 'required|numeric|min_length[0]|max_length[20]'],
+        'fecha_visita' => ['label' => 'Fecha visita', 'rules' => 'required|valid_date|min_length[0]'],
+        'tipo_servicio' => ['label' => 'Tipo servicio', 'rules' => 'required|min_length[0]|max_length[50]'],
+        'descripcion_servicio' => ['label' => 'Descripcion servicio', 'rules' => 'required|min_length[0]|max_length[50]'],
+    ]);
+
+    // Ejecutar la validación
+    if ($this->validation->run($fields) == false) {
+        $response['success'] = false;
+        $response['messages'] = $this->validation->getErrors();
+    } else {
+        // Insertar los datos en la base de datos
+        if ($this->visitaModel->insert($fields)) {
+            $response['success'] = true;
+            $response['messages'] = lang("Agregado correctamente");
+        } else {
+            $response['success'] = false;
+            $response['messages'] = lang("Error al insertar");
+        }
+    }
+
+    return $this->response->setJSON($response);
+}
 
 	public function postEdit()
 	{

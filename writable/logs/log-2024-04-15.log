@@ -1,0 +1,70 @@
+CRITICAL - 2024-04-15 01:48:21 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 01:48:27 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:06:27 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:09:31 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:09:46 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:14:51 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:15:09 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:15:21 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:15:42 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-15 02:22:37 --> ErrorException: Undefined property: stdClass::$id_receta
+in APPPATH\Controllers\Visita.php on line 64.
+ 1 APPPATH\Controllers\Visita.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_receta', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Visita.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Visita->postGetAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visita))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

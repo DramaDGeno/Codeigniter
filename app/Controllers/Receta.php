@@ -218,6 +218,7 @@ public function postAdd()
 		$fields['id_visita'] = $this->request->getPost('id_visita');
 		$fields['id_mascota'] = $this->request->getPost('id_mascota');
 		$fields['desc_receta'] = $this->request->getPost('desc_receta');
+        
 
 
         $this->validation->setRules([
